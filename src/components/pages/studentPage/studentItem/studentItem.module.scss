@@ -1,0 +1,39 @@
+.wrapper {
+	border: 3px solid #000;
+	border-radius: 30px;
+	max-width: 350px;
+	overflow: hidden;
+}
+.student__info {
+	border-bottom: 3px solid #000;
+
+	.student__fullName {
+		border-bottom: 3px solid #000;
+		text-align: center;
+		font-size: 27px;
+		padding-bottom: 5px;
+		background: #1b0ad87e;
+	}
+	.student__photo {
+		text-align: center;
+		padding-bottom: 5px;
+		background: #07e2ff53;
+		padding-top: 10px;
+		.student__photo_item {
+			border-radius: 45%;
+		}
+	}
+}
+.student__number {
+	text-align: center;
+	border-bottom: 3px solid #000;
+	padding-bottom: 4px;
+	padding-top: 2px;
+	font-size: 20px;
+}
+.student__email {
+	text-align: center;
+	padding-bottom: 4px;
+	padding-top: 2px;
+	font-size: 20px;
+}

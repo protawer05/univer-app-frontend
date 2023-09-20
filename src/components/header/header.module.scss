@@ -1,0 +1,35 @@
+.header {
+	background-color: #fff;
+	border-bottom: 2px red solid;
+
+	height: 80px;
+	margin-bottom: 35px;
+	.header__wrapper {
+		max-width: 870px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+	}
+}
+.link {
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	&:hover {
+		color: red;
+		opacity: 0.75;
+	}
+	margin-right: 30px;
+	&:last-child {
+		margin-right: 0px;
+		text-align: center;
+	}
+}
+.logo {
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	margin: 0px 0px;
+	margin-top: 9px;
+}
